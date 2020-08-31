@@ -1,4 +1,6 @@
 {
+    "name": "mexq/symfony-vue",
+    "description": "MexQ PHP Skeleton with Symfony 3.4 + Vuejs",
     "type": "project",
     "license": "proprietary",
     "require": {
@@ -40,7 +42,8 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "src/"
+            "App\\": "src/",
+            "MexQ\\": "app/"
         }
     },
     "autoload-dev": {
