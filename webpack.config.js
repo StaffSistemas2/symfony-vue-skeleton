@@ -10,6 +10,7 @@ Encore
   .addEntry('js/app', './assets/js/index.js')
   .addStyleEntry('css/style', './assets/css/custom.scss')
   .enableSassLoader()
+  .enablePostCssLoader()
   .enableVueLoader()
 // .addPlugin(new VueLoaderPlugin())
 // .addAliases({
